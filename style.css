@@ -218,3 +218,94 @@ footer {
   color: #9694a5;
   border-top-color: #e2e1ef;
 }
+/* =========================
+   小説本文
+   ========================= */
+
+.novel-page {
+  max-width: 650px;
+  margin: 0 auto 80px;
+}
+
+/* タイトル部分 */
+
+.novel-title {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.novel-title h2 {
+  margin-bottom: 10px;
+  padding: 0;
+  border: none;
+
+  color: #5654A2;
+  font-size: 1.35rem;
+  font-weight: normal;
+  letter-spacing: 0.15em;
+}
+
+.novel-info {
+  color: #8582a3;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+}
+
+
+/* 小説本文 */
+
+.novel-body {
+  font-size: 1rem;
+  line-height: 2.2;
+}
+
+.novel-body p {
+  margin: 0 0 1.8em;
+}
+
+
+/* 前後の作品への移動 */
+
+.novel-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 90px;
+  padding-top: 25px;
+
+  border-top: 1px solid #d8d6e9;
+
+  font-size: 0.85rem;
+}
+
+.novel-navigation a {
+  text-decoration: none;
+}
+
+.nav-prev {
+  color: #aaa8b2;
+}
+
+
+/* スマホ */
+
+@media screen and (max-width: 600px) {
+
+  .novel-page {
+    max-width: 100%;
+  }
+
+  .novel-body {
+    font-size: 0.95rem;
+    line-height: 2.15;
+  }
+
+  .novel-title {
+    margin-bottom: 50px;
+  }
+
+  .novel-navigation {
+    margin-top: 65px;
+  }
+}
