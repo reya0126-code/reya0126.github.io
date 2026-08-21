@@ -154,3 +154,67 @@ footer {
   text-align: center;
   font-size: 0.9rem;
 }
+/* ===== 桔梗色テーマ ===== */
+
+body {
+  color: #302f35;
+  background-color: #fbfaff;
+}
+
+/* サイトタイトル */
+header h1 {
+  color: #5654A2;
+}
+
+header p {
+  color: #8582a3;
+}
+
+/* メニュー */
+nav {
+  border-top-color: #d8d6e9;
+  border-bottom-color: #d8d6e9;
+}
+
+nav a {
+  color: #5654A2;
+}
+
+nav a:hover {
+  color: #7775b5;
+}
+
+/* 見出し */
+h2 {
+  color: #5654A2;
+  border-bottom-color: #d8d6e9;
+}
+
+/* 本文中のリンク */
+a {
+  color: #5654A2;
+}
+
+a:hover {
+  color: #7775b5;
+}
+
+/* 作品一覧の罫線 */
+.work {
+  border-bottom-color: #e2e1ef;
+}
+
+.work:first-child {
+  border-top-color: #e2e1ef;
+}
+
+/* 補足情報 */
+.work-info {
+  color: #8582a3;
+}
+
+/* フッター */
+footer {
+  color: #9694a5;
+  border-top-color: #e2e1ef;
+}
