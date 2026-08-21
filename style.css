@@ -124,3 +124,33 @@ footer {
     font-size: 0.85rem;
   }
 }
+/* 小説本文ページ */
+
+.novel-page {
+  max-width: 650px;
+  margin: 0 auto 80px;
+}
+
+.novel-page article {
+  margin-top: 20px;
+}
+
+.novel-page article h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  border-bottom: none;
+
+  font-size: 1.25rem;
+  letter-spacing: 0.15em;
+}
+
+.novel-page article p {
+  margin-bottom: 1.8em;
+  line-height: 2.2;
+}
+
+.novel-nav {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 0.9rem;
+}
