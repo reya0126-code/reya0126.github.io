@@ -335,3 +335,72 @@ footer {
   text-align: center;
   font-size: 0.85rem;
 }
+/* =========================
+   本編・外伝
+   ========================= */
+
+.novel-category {
+  margin-bottom: 80px;
+}
+
+.work-label {
+  margin-bottom: 8px;
+
+  color: #8582a3;
+
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+}
+
+.work-title {
+  margin-bottom: 70px;
+}
+
+.work-title h2 {
+  margin-top: 0;
+}
+
+/* 作品一覧 */
+
+.work {
+  padding: 18px 8px;
+  border-bottom: 1px solid #e2e1ef;
+}
+
+.work:first-child {
+  border-top: 1px solid #e2e1ef;
+}
+
+.work a {
+  text-decoration: none;
+  letter-spacing: 0.08em;
+}
+
+/* 作品内の目次 */
+
+.chapter-list {
+  margin-top: 30px;
+  border-top: 1px solid #d8d6e9;
+}
+
+.chapter-list a {
+  display: block;
+
+  padding: 18px 8px;
+
+  border-bottom: 1px solid #e2e1ef;
+
+  text-decoration: none;
+  letter-spacing: 0.08em;
+}
+
+.chapter-list a:hover {
+  background-color: #f5f4fb;
+}
+
+.back-link {
+  margin-top: 70px;
+
+  text-align: center;
+  font-size: 0.85rem;
+}
