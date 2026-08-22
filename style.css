@@ -309,3 +309,29 @@ footer {
     margin-top: 65px;
   }
 }
+/* 作品目次 */
+
+.chapter-list {
+  margin-top: 30px;
+  border-top: 1px solid #d8d6e9;
+}
+
+.chapter-list a {
+  display: block;
+  padding: 18px 8px;
+
+  border-bottom: 1px solid #e2e1ef;
+
+  text-decoration: none;
+  letter-spacing: 0.08em;
+}
+
+.chapter-list a:hover {
+  background-color: #f5f4fb;
+}
+
+.back-link {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 0.85rem;
+}
