@@ -404,3 +404,47 @@ footer {
   text-align: center;
   font-size: 0.85rem;
 }
+/* ===== 小説本文を読みやすくする ===== */
+
+.novel-page {
+  max-width: 620px;
+  margin: 0 auto 80px;
+}
+
+.novel-body {
+  font-size: 1.05rem;
+  line-height: 2.35;
+  letter-spacing: 0.02em;
+}
+
+.novel-body p {
+  margin: 0 0 2em;
+}
+
+.novel-title {
+  margin-bottom: 60px;
+}
+
+.novel-title h2 {
+  font-size: 1.3rem;
+  line-height: 1.7;
+}
+
+.novel-info {
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .novel-page {
+    max-width: 100%;
+  }
+
+  .novel-body {
+    font-size: 1rem;
+    line-height: 2.25;
+  }
+
+  .novel-body p {
+    margin-bottom: 1.8em;
+  }
+}
