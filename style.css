@@ -550,3 +550,13 @@ footer {
 .novel-body p.dialogue {
   text-indent: 0;
 }
+/* 小説本文の一字下げ */
+.novel-body p {
+  margin: 0;
+  text-indent: 1em;
+}
+
+/* セリフは一字下げしない */
+.novel-body p.dialogue {
+  text-indent: 0;
+}
