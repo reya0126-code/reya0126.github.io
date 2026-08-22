@@ -560,3 +560,12 @@ footer {
 .novel-body p.dialogue {
   text-indent: 0;
 }
+.novel-body p {
+  margin-top: 0;
+  margin-bottom: 0.35em;
+  text-indent: 1em;
+}
+
+.novel-body p.dialogue {
+  text-indent: 0;
+}
