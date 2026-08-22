@@ -10,8 +10,8 @@ body {
     serif;
 
   line-height: 2;
-  color: #332f35;
-  background-color: #fbfafc;
+  color: #302f35;
+  background-color: #fbfaff;
 }
 
 /* サイト上部 */
@@ -26,14 +26,14 @@ header h1 {
   font-size: 2rem;
   font-weight: normal;
   letter-spacing: 0.18em;
-  color: #51405f;
+  color: #5654A2;
 }
 
 header p {
   margin-top: 10px;
   font-size: 0.85rem;
   letter-spacing: 0.12em;
-  color: #8c8192;
+  color: #8582a3;
 }
 
 /* メニュー */
@@ -42,23 +42,23 @@ nav {
   text-align: center;
   margin: 30px 0 60px;
   padding: 14px 0;
-  border-top: 1px solid #ddd3e3;
-  border-bottom: 1px solid #ddd3e3;
+  border-top: 1px solid #d8d6e9;
+  border-bottom: 1px solid #d8d6e9;
 }
 
 nav a {
   margin: 0 18px;
-  color: #665470;
+  color: #5654A2;
   text-decoration: none;
   font-size: 0.9rem;
   letter-spacing: 0.12em;
 }
 
 nav a:hover {
-  color: #9b7eaa;
+  color: #7775b5;
 }
 
-/* 本文 */
+/* 基本 */
 
 main {
   margin-bottom: 80px;
@@ -76,8 +76,8 @@ h2 {
   font-weight: normal;
   letter-spacing: 0.12em;
 
-  color: #5d4969;
-  border-bottom: 1px solid #d8cede;
+  color: #5654A2;
+  border-bottom: 1px solid #d8d6e9;
 }
 
 p {
@@ -87,11 +87,11 @@ p {
 /* リンク */
 
 a {
-  color: #765e82;
+  color: #5654A2;
 }
 
 a:hover {
-  color: #a085ad;
+  color: #7775b5;
 }
 
 /* フッター */
@@ -102,265 +102,18 @@ footer {
 
   text-align: center;
   font-size: 0.75rem;
-  color: #9c949f;
-
-  border-top: 1px solid #e4dce8;
-}
-
-/* スマホ */
-
-@media screen and (max-width: 600px) {
-
-  body {
-    padding: 28px 18px;
-  }
-
-  header h1 {
-    font-size: 1.6rem;
-  }
-
-  nav a {
-    margin: 0 10px;
-    font-size: 0.85rem;
-  }
-}
-/* 小説本文ページ */
-
-.novel-page {
-  max-width: 650px;
-  margin: 0 auto 80px;
-}
-
-.novel-page article {
-  margin-top: 20px;
-}
-
-.novel-page article h2 {
-  text-align: center;
-  margin-bottom: 50px;
-  border-bottom: none;
-
-  font-size: 1.25rem;
-  letter-spacing: 0.15em;
-}
-
-.novel-page article p {
-  margin-bottom: 1.8em;
-  line-height: 2.2;
-}
-
-.novel-nav {
-  margin-top: 70px;
-  text-align: center;
-  font-size: 0.9rem;
-}
-/* ===== 桔梗色テーマ ===== */
-
-body {
-  color: #302f35;
-  background-color: #fbfaff;
-}
-
-/* サイトタイトル */
-header h1 {
-  color: #5654A2;
-}
-
-header p {
-  color: #8582a3;
-}
-
-/* メニュー */
-nav {
-  border-top-color: #d8d6e9;
-  border-bottom-color: #d8d6e9;
-}
-
-nav a {
-  color: #5654A2;
-}
-
-nav a:hover {
-  color: #7775b5;
-}
-
-/* 見出し */
-h2 {
-  color: #5654A2;
-  border-bottom-color: #d8d6e9;
-}
-
-/* 本文中のリンク */
-a {
-  color: #5654A2;
-}
-
-a:hover {
-  color: #7775b5;
-}
-
-/* 作品一覧の罫線 */
-.work {
-  border-bottom-color: #e2e1ef;
-}
-
-.work:first-child {
-  border-top-color: #e2e1ef;
-}
-
-/* 補足情報 */
-.work-info {
-  color: #8582a3;
-}
-
-/* フッター */
-footer {
   color: #9694a5;
-  border-top-color: #e2e1ef;
+
+  border-top: 1px solid #e2e1ef;
 }
+
 /* =========================
-   小説本文
-   ========================= */
-
-.novel-page {
-  max-width: 650px;
-  margin: 0 auto 80px;
-}
-
-/* タイトル部分 */
-
-.novel-title {
-  text-align: center;
-  margin-bottom: 70px;
-}
-
-.novel-title h2 {
-  margin-bottom: 10px;
-  padding: 0;
-  border: none;
-
-  color: #5654A2;
-  font-size: 1.35rem;
-  font-weight: normal;
-  letter-spacing: 0.15em;
-}
-
-.novel-info {
-  color: #8582a3;
-  font-size: 0.8rem;
-  letter-spacing: 0.1em;
-}
-
-
-/* 小説本文 */
-
-.novel-body {
-  font-size: 1rem;
-  line-height: 2.2;
-}
-
-.novel-body p {
-  margin: 0 0 1.8em;
-}
-
-
-/* 前後の作品への移動 */
-
-.novel-navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  margin-top: 90px;
-  padding-top: 25px;
-
-  border-top: 1px solid #d8d6e9;
-
-  font-size: 0.85rem;
-}
-
-.novel-navigation a {
-  text-decoration: none;
-}
-
-.nav-prev {
-  color: #aaa8b2;
-}
-
-
-/* スマホ */
-
-@media screen and (max-width: 600px) {
-
-  .novel-page {
-    max-width: 100%;
-  }
-
-  .novel-body {
-    font-size: 0.95rem;
-    line-height: 2.15;
-  }
-
-  .novel-title {
-    margin-bottom: 50px;
-  }
-
-  .novel-navigation {
-    margin-top: 65px;
-  }
-}
-/* 作品目次 */
-
-.chapter-list {
-  margin-top: 30px;
-  border-top: 1px solid #d8d6e9;
-}
-
-.chapter-list a {
-  display: block;
-  padding: 18px 8px;
-
-  border-bottom: 1px solid #e2e1ef;
-
-  text-decoration: none;
-  letter-spacing: 0.08em;
-}
-
-.chapter-list a:hover {
-  background-color: #f5f4fb;
-}
-
-.back-link {
-  margin-top: 70px;
-  text-align: center;
-  font-size: 0.85rem;
-}
-/* =========================
-   本編・外伝
+   作品一覧
    ========================= */
 
 .novel-category {
   margin-bottom: 80px;
 }
-
-.work-label {
-  margin-bottom: 8px;
-
-  color: #8582a3;
-
-  font-size: 0.8rem;
-  letter-spacing: 0.18em;
-}
-
-.work-title {
-  margin-bottom: 70px;
-}
-
-.work-title h2 {
-  margin-top: 0;
-}
-
-/* 作品一覧 */
 
 .work {
   padding: 18px 8px;
@@ -376,7 +129,28 @@ footer {
   letter-spacing: 0.08em;
 }
 
-/* 作品内の目次 */
+.work-info {
+  color: #8582a3;
+}
+
+/* =========================
+   作品目次
+   ========================= */
+
+.work-label {
+  margin-bottom: 8px;
+  color: #8582a3;
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+}
+
+.work-title {
+  margin-bottom: 70px;
+}
+
+.work-title h2 {
+  margin-top: 0;
+}
 
 .chapter-list {
   margin-top: 30px;
@@ -385,11 +159,8 @@ footer {
 
 .chapter-list a {
   display: block;
-
   padding: 18px 8px;
-
   border-bottom: 1px solid #e2e1ef;
-
   text-decoration: none;
   letter-spacing: 0.08em;
 }
@@ -400,55 +171,13 @@ footer {
 
 .back-link {
   margin-top: 70px;
-
   text-align: center;
   font-size: 0.85rem;
 }
-/* ===== 小説本文を読みやすくする ===== */
 
-.novel-page {
-  max-width: 620px;
-  margin: 0 auto 80px;
-}
-
-.novel-body {
-  font-size: 1.05rem;
-  line-height: 2.35;
-  letter-spacing: 0.02em;
-}
-
-.novel-body p {
-  margin: 0 0 2em;
-}
-
-.novel-title {
-  margin-bottom: 60px;
-}
-
-.novel-title h2 {
-  font-size: 1.3rem;
-  line-height: 1.7;
-}
-
-.novel-info {
-  margin-bottom: 12px;
-}
-
-@media screen and (max-width: 600px) {
-  .novel-page {
-    max-width: 100%;
-  }
-
-  .novel-body {
-    font-size: 1rem;
-    line-height: 2.25;
-  }
-
-  .novel-body p {
-    margin-bottom: 1.8em;
-  }
-}
-/* ===== 本文ページを目次ページと統一 ===== */
+/* =========================
+   小説本文ページ
+   ========================= */
 
 .novel-page {
   max-width: 760px;
@@ -464,7 +193,6 @@ footer {
 
 .novel-title .novel-info {
   margin-bottom: 8px;
-
   color: #8582a3;
   font-size: 0.8rem;
   letter-spacing: 0.18em;
@@ -482,35 +210,38 @@ footer {
   border-bottom: 1px solid #d8d6e9;
 }
 
-/* 小説本文 */
+/* 本文 */
 
 .novel-body {
   max-width: 650px;
   margin: 0 auto;
 
   font-size: 1.05rem;
-  line-height: 2.2;
+  line-height: 1.75;
   letter-spacing: 0.02em;
 }
 
+/* 地の文 */
+
 .novel-body p {
   margin: 0;
+  padding: 0;
   text-indent: 1em;
 }
 
-/* 会話文は字下げしない */
+/* 会話文 */
 
 .novel-body p.dialogue {
   text-indent: 0;
 }
 
-/* 一行空け */
+/* 意図的な一行空け */
 
 .blank-line {
-  height: 2.2em;
+  height: 1.75em;
 }
 
-/* ページ下部 */
+/* 前へ・目次・次へ */
 
 .novel-navigation {
   display: flex;
@@ -529,9 +260,24 @@ footer {
   text-decoration: none;
 }
 
-/* スマホ */
+/* =========================
+   スマホ
+   ========================= */
 
 @media screen and (max-width: 600px) {
+
+  body {
+    padding: 28px 18px;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  nav a {
+    margin: 0 10px;
+    font-size: 0.85rem;
+  }
 
   .novel-page {
     max-width: 100%;
@@ -540,49 +286,14 @@ footer {
   .novel-body {
     max-width: 100%;
     font-size: 1rem;
+    line-height: 1.75;
   }
 
-}
-.novel-body p {
-  margin: 0;
-  text-indent: 1em;
-}
-.novel-body p.dialogue {
-  text-indent: 0;
-}
-/* 小説本文の一字下げ */
-.novel-body p {
-  margin: 0;
-  text-indent: 1em;
-}
+  .novel-title {
+    margin-bottom: 50px;
+  }
 
-/* セリフは一字下げしない */
-.novel-body p.dialogue {
-  text-indent: 0;
-}
-.novel-body p {
-  margin-top: 0;
-  margin-bottom: 0.15em;
-  text-indent: 1em;
-}
-
-.novel-body p.dialogue {
-  text-indent: 0;
-}
-/* ===== 小説本文・段落間隔の最終調整 ===== */
-
-.novel-body p {
-  margin: 0 !important;
-  padding: 0 !important;
-  text-indent: 1em;
-  line-height: 1.9;
-}
-
-.novel-body p.dialogue {
-  text-indent: 0;
-}
-
-/* 意図的に空ける一行 */
-.novel-body .blank-line {
-  height: 1.9em;
+  .novel-navigation {
+    margin-top: 65px;
+  }
 }
