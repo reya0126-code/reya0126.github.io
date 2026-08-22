@@ -569,3 +569,20 @@ footer {
 .novel-body p.dialogue {
   text-indent: 0;
 }
+/* ===== 小説本文・段落間隔の最終調整 ===== */
+
+.novel-body p {
+  margin: 0 !important;
+  padding: 0 !important;
+  text-indent: 1em;
+  line-height: 1.9;
+}
+
+.novel-body p.dialogue {
+  text-indent: 0;
+}
+
+/* 意図的に空ける一行 */
+.novel-body .blank-line {
+  height: 1.9em;
+}
