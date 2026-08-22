@@ -543,3 +543,10 @@ footer {
   }
 
 }
+.novel-body p {
+  margin: 0;
+  text-indent: 1em;
+}
+.novel-body p.dialogue {
+  text-indent: 0;
+}
