@@ -448,3 +448,98 @@ footer {
     margin-bottom: 1.8em;
   }
 }
+/* ===== 本文ページを目次ページと統一 ===== */
+
+.novel-page {
+  max-width: 760px;
+  margin: 0 auto 80px;
+}
+
+/* 本文ページ上部 */
+
+.novel-title {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.novel-title .novel-info {
+  margin-bottom: 8px;
+
+  color: #8582a3;
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+}
+
+.novel-title h2 {
+  margin: 0;
+  padding-bottom: 8px;
+
+  color: #5654A2;
+  font-size: 1.15rem;
+  font-weight: normal;
+  letter-spacing: 0.15em;
+
+  border-bottom: 1px solid #d8d6e9;
+}
+
+/* 小説本文 */
+
+.novel-body {
+  max-width: 650px;
+  margin: 0 auto;
+
+  font-size: 1.05rem;
+  line-height: 2.2;
+  letter-spacing: 0.02em;
+}
+
+.novel-body p {
+  margin: 0;
+  text-indent: 1em;
+}
+
+/* 会話文は字下げしない */
+
+.novel-body p.dialogue {
+  text-indent: 0;
+}
+
+/* 一行空け */
+
+.blank-line {
+  height: 2.2em;
+}
+
+/* ページ下部 */
+
+.novel-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 80px;
+  padding-top: 20px;
+
+  border-top: 1px solid #d8d6e9;
+
+  font-size: 0.85rem;
+}
+
+.novel-navigation a {
+  text-decoration: none;
+}
+
+/* スマホ */
+
+@media screen and (max-width: 600px) {
+
+  .novel-page {
+    max-width: 100%;
+  }
+
+  .novel-body {
+    max-width: 100%;
+    font-size: 1rem;
+  }
+
+}
