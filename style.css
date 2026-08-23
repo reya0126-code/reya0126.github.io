@@ -304,3 +304,25 @@ footer {
   transform: skewX(-4deg);
   transform-origin: left top;
 }
+/* ===== 小説ページ番号 ===== */
+
+.page-list {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 0.85rem;
+  line-height: 2;
+}
+
+.page-list a,
+.page-list .current {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.page-list a {
+  text-decoration: none;
+}
+
+.page-list .current {
+  color: #9694a5;
+}
