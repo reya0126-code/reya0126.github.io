@@ -299,7 +299,8 @@ footer {
 }
 /* ===== 手記・日記部分 ===== */
 
-.novel-body .diary-text,
-.novel-body .diary-text p {
-  font-style: italic !important;
+.novel-body .diary-text {
+  font-style: italic;
+  transform: skewX(-4deg);
+  transform-origin: left top;
 }
