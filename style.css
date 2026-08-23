@@ -297,3 +297,7 @@ footer {
     margin-top: 65px;
   }
 }
+/* ページ全体を斜体にする場合 */
+.novel-body.italic-page {
+  font-style: italic;
+}
