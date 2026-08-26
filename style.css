@@ -326,3 +326,28 @@ footer {
 .page-list .current {
   color: #9694a5;
 }
+
+/* =========================
+   小説ページ番号
+========================= */
+
+.page-number-nav {
+  margin: 50px auto 25px;
+  text-align: center;
+  line-height: 2;
+  font-size: 0.95rem;
+}
+
+.page-number-nav a {
+  color: inherit;
+  text-decoration: none;
+  padding: 3px 5px;
+}
+
+.page-number-nav a:hover {
+  text-decoration: underline;
+}
+
+.page-number-nav span {
+  opacity: 0.5;
+}
