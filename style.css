@@ -326,3 +326,6 @@ footer {
 .page-list .current {
   color: #9694a5;
 }
+.italic-page {
+  font-style: italic;
+}
